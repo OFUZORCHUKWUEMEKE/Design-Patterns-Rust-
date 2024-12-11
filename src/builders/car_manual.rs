@@ -12,7 +12,7 @@ pub struct CarManualBuilder{
     gps_navigator:Option<GpsNavigator>,
     seats:Option<u16>,
     transmission:Option<Transmission>
-};
+}
 
 impl Builder for CarManualBuilder{
     type OutputType = Manual;

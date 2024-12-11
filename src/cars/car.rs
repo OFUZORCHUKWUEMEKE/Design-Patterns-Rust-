@@ -29,7 +29,7 @@ impl Car {
     }
 
     pub fn car_type(&self) -> CarType {
-        self.car_type;
+        self.car_type
     }
 
     pub fn fuel(&self) -> f64 {

@@ -19,4 +19,4 @@ pub trait Builder{
 }
 
 pub use car::CarBuilder;
-pub use car_manual:CarManualBuilder;
+pub use car_manual::CarManualBuilder;
