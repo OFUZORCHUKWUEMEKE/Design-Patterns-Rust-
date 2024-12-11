@@ -1,7 +1,7 @@
 use super::Builder;
 use crate::{
     cars::Car,
-    component::{CarType, Engine, GpsNavigator, Transmission},
+    components::{CarType, Engine, GpsNavigator, Transmission},
 };
 
 pub const DEFAULT_FUEL: f64 = 5f64;
