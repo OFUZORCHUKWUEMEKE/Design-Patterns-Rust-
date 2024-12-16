@@ -11,7 +11,7 @@ struct Animal {
 fn compare_and_display<T, U>(statement: T, num_1: U, num2: U)
 where
     T: Display,
-    U:Display + PartialOrd
+    U: Display + PartialOrd,
 {
 }
 
